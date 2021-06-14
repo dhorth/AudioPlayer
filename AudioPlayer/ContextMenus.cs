@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
-using SystemTrayApp;
+using AudioPlayer;
 using AudioPlayer.Properties;
 using WMPLib;
 

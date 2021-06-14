@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31229.75
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioPlayer", "AudioPlayer\AudioPlayer.csproj", "{04745601-0E02-45DB-9370-FC75D3998453}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AudioPlayer", "AudioPlayer\AudioPlayer.csproj", "{04745601-0E02-45DB-9370-FC75D3998453}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "etc", "etc", "{36E0C598-A87D-4C5A-893A-7C203D22DC0E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

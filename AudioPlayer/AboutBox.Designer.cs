@@ -1,4 +1,4 @@
-﻿namespace SystemTrayApp
+﻿namespace AudioPlayer
 {
 	partial class AboutBox
 	{

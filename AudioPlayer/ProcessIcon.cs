@@ -15,8 +15,8 @@ namespace AudioPlayer
         {
 
             _notifyIcon = new NotifyIcon();
-            GlobalHotKey.RegisterHotKey("Ctrl+Alt+P", PlayPauseAudio);
-            _player = new WindowsMediaPlayer { URL = "https://server:8443/spotify" };
+            GlobalHotKey.RegisterHotKey(Constants.HotKey, PlayPauseAudio);
+            _player = new WindowsMediaPlayer { URL = Constants.AudioSource };
         }
 
 

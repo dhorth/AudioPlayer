@@ -2,7 +2,7 @@
 using System.Reflection;
 using System.Windows.Forms;
 
-namespace SystemTrayApp
+namespace AudioPlayer
 {
 	partial class AboutBox : Form
 	{
