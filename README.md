@@ -1,7 +1,9 @@
 
 # Simple Audio Stream Player
 Author: David Horth
+
 Date: 6/14/2021
+
 Release: 1.0
 
 ## Purpose
@@ -26,9 +28,9 @@ On startup the application will add a tray icon to the windows system tray.
 
 - Left click on the tray icon, toggles between Play and Pause
 - Right click context menu
--- Play
--- Pause
--- Exit
+- - Play
+- - Pause
+- - Exit
 -  Global hotkey Ctrl+Alt+P toggles between Play and Pause
 
 ## Possible Enhancements
