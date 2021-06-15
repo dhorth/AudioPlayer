@@ -67,7 +67,7 @@ namespace AudioPlayer
             try
             {
                 if (_player.playState == WMPPlayState.wmppsPlaying)
-                    _player.controls.pause();
+                    _player.controls.stop();
                 else
                     _player.controls.play();
 
